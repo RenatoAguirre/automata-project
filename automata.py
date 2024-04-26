@@ -4,7 +4,7 @@ class Automata:
         self,
         states: list[str],
         alphabet: list[str],
-        transitions: tuple,
+        transitions: list[tuple],
         end_state: str,
         accept_states,
     ):
