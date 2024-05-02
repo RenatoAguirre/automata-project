@@ -2,7 +2,7 @@ class Automata:
     # create an automata class
     def __init__(
         self,
-        states: list[str],
+        states: list[set[str]],
         alphabet: list[str],
         transitions: list[tuple],
         end_state: str,
